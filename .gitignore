@@ -1,0 +1,19 @@
+# Ignore Obsidian UI state files
+docs/ObsidianDocs/.obsidian/workspace.json
+docs/ObsidianDocs/.obsidian/appearance.json
+docs/ObsidianDocs/.obsidian/app.json
+docs/ObsidianDocs/.obsidian/core-plugins.json
+docs/ObsidianDocs/.obsidian/plugins/
+docs/ObsidianDocs/.obsidian/snippets/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
