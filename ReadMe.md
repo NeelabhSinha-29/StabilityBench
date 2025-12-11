@@ -84,5 +84,3 @@ StabilityBench includes metric families defined in `docs/ObsidianDocs/01_Metrics
 
 **Maintainer:** Neelabh Sinha  
 UCL MSc Data Science – StabilityBench Project
-
-© 2024 Neelabh Sinha. All rights reserved.
