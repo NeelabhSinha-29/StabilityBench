@@ -78,6 +78,8 @@ StabilityBench includes metric families defined in `docs/ObsidianDocs/01_Metrics
 - Visualization tools
 - Leaderboards and report templates
 
+***This repository is under active development. Core architecture and metrics definitions are being finalised before code implementation begins.***
+
 ## Contact
 
 **Maintainer:** Neelabh Sinha  
