@@ -28,12 +28,30 @@ Currently supports open-source models (Llama, DeepSeek, Mistral) with planned in
 
 ```
 StabilityBench/
-├── docs/ObsidianDocs/          # Documentation and design notes
-├── src/                         # Implementation (in development)
-├── data/                        # Datasets and prompts
-├── results/                     # Experiment outputs
-├── Dockerfile                   # Reproducible environment (planned)
-└── README.md
+├── docs/
+│   └── ObsidianDocs/            # Documentation vault
+│       ├── Welcome.md
+│       ├── 00_Scope/
+│       │   └── 00 Scope and Core Capabilities of StabilityBench.md
+│       └── 01_Metrics/
+│           └── 01_Metrics.md
+├── stbch-lite/                  # Main implementation package
+│   ├── src/
+│   │   └── stabilitybench/      # Core module
+│   │       ├── __init__.py
+│   │       ├── core.py
+│   │       └── run_experiment.py
+│   ├── prompts/
+│   │   └── prompts.jsonl        # Task prompts
+│   ├── runs/                    # Experiment outputs
+│   ├── scripts/                 # Utility scripts
+│   │   └── run_repeat.py
+│   ├── docs/                    # Implementation documentation
+│   │   └── run_schema.md
+│   ├── readme.md
+│   └── testing-notes.txt
+├── LICENSE
+└── ReadMe.md                    # This file
 ```
 
 ## Key Concepts
@@ -78,7 +96,7 @@ StabilityBench includes metric families defined in `docs/ObsidianDocs/01_Metrics
 - Visualization tools
 - Leaderboards and report templates
 
-***This repository is under active development. Core architecture and metrics definitions are being finalised before code implementation begins.***
+***This repository is under active development. Core architecture and metrics definitions are being finalized before code implementation begins.***
 
 ## Contact
 
